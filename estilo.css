@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+}
+#caja1{
+	/*box-sizing: border-box; /*hace que se ajuste a la medida especificada*/
+	display: block;
+	margin: 50px;
+	width: 200px;	/*min-content  se ajusta al contenido en lo ancho    */
+	height:200px; /*min-content  se ajusta al contenido en lo alto*/
+	background: steelblue;
+	font-size: 30px;
+	padding: 64px;
+	border: 40px solid red ;
+	 text-align: center;
+	 box-shadow: 30px 20px 5px black;
+	 float: left;
+
+
+}
+.boton{
+	/*box-sizing: border-box; /*hace que se ajuste a la medida especificada*/
+	display: block;
+	margin: 50px;
+	width: 20px;	/*min-content  se ajusta al contenido en lo ancho    */
+	height:20px; /*min-content  se ajusta al contenido en lo alto*/
+	background: blue;
+	font-size: 12px;
+	padding: 64px;
+	border: 40px solid green ;
+	border-radius: 50px;
+	float: left;
+
+}
+#caja1:hover{
+background-color: green; 
+text-shadow: 18px 10px 5px blue;
+}
